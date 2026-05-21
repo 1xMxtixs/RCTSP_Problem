@@ -9,7 +9,7 @@ Este repositorio contiene la implementación y análisis para el problema **RCTS
 
 ---
 
-## 📌 Introducción al Problema
+## Introducción al Problema
 
 ### ¿Qué es el TSP (Traveling Salesperson Problem)?
 El **Problema del Agente Viajero (TSP)** es uno de los problemas de optimización combinatoria más estudiados en la historia. Consiste en encontrar la ruta de menor costo (o distancia) que visite un conjunto de ciudades exactamente una vez y regrese al punto de partida original.
@@ -40,7 +40,7 @@ $$\text{(y las restricciones estándar de ciclo hamiltoniano del TSP)}$$
 
 ---
 
-## 🎯 Aplicaciones del RCTSP
+## Aplicaciones del RCTSP
 *   **Vehículos Eléctricos (EVs):** Minimizar el tiempo de viaje con restricciones de capacidad de batería ($R_{\max}$).
 *   **Rutas de Drones (UAS):** Planificación de trayectos de inspección aérea donde el dron debe regresar antes de agotar su batería o combustible.
 *   **Logística con Plazos de Entrega:** Minimizar la distancia recorrida bajo ventanas de tiempo o plazos de entrega acumulados (donde el tiempo es el recurso limitado).
@@ -48,7 +48,7 @@ $$\text{(y las restricciones estándar de ciclo hamiltoniano del TSP)}$$
 
 ---
 
-## 🛠️ Métodos de Resolución
+## Métodos de Resolución
 Dado que el RCTSP es un problema NP-duro, su resolución requiere diferentes enfoques dependiendo del tamaño de la instancia:
 
 ### 1. Métodos Exactos (para problemas pequeños/medianos)
